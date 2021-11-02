@@ -1,0 +1,1 @@
+Models Manager : https://medium.com/codex/django-custom-managers-demystified-6e3006c0b733

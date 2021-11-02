@@ -1,0 +1,12 @@
+"""
+Permet de visualiser les changements dans vos modèles, sans enregistrer le fichier de migration correspondant. En combinant cette option avec –verbosity 3, vous pouvez voir le fichier qui serait créé.
+https://zestedesavoir.com/tutoriels/598/developpez-votre-site-web-avec-le-framework-django/266_annexes/1539_lutilitaire-managepy/
+"""
+py manage.py makemigrations --dry-run --verbosity 3
+##
+py manage.py runserver
+py manage.py createsuperuser
+pip install coverage
+coverage run --omit='*/venv/*' manage.py test
+coverage html
+pip install djangorestframework
