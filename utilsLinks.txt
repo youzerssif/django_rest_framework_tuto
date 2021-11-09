@@ -1,2 +1,3 @@
 Models Manager : https://medium.com/codex/django-custom-managers-demystified-6e3006c0b733
 DRF site : https://www.django-rest-framework.org/
+django technique avancée : https://zestedesavoir.com/tutoriels/598/developpez-votre-site-web-avec-le-framework-django/264_techniques-avancees/1527_les-vues-generiques/
